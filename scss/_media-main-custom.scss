@@ -1,0 +1,11 @@
+@media screen and (max-width: 570px) {
+  .input-radio {
+    &__wrapper {
+      margin-top: 15px;
+
+      &-3 .input-radio {
+      width: calc(100%/2 - 10px);
+    }
+    }
+  }
+}
