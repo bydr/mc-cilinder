@@ -380,8 +380,87 @@ input[type=number]::-webkit-outer-spin-button {
 .green-square {
   margin-bottom: 10px; }
 
-@media screen and (max-width: 570px) {
+.offer-table .item .header .icon {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.dr-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center; }
+
+.content-list__item {
+  padding: 30px 0;
+  margin: 0;
+  border-bottom: 1px solid #E8E8E8; }
+  .content-list__item:first-child {
+    padding-top: 0; }
+.content-list__image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #C4C4C4;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-height: 85%;
+  min-height: 180px;
+  margin-bottom: 15px; }
+.content-list > .btn {
+  margin-top: 30px;
+  max-width: 100%;
+  margin-bottom: 30px; }
+.content-list__info {
+  max-width: 450px; }
+
+.sidebar {
+  padding: 0;
+  margin-bottom: 20px; }
+  .sidebar-category {
+    margin-bottom: 60px; }
+  .sidebar__title {
+    margin-bottom: 20px; }
+  .sidebar__list {
+    padding: 0;
+    margin: 0; }
+    .sidebar__list li {
+      list-style: none;
+      margin: 0 0 20px 0;
+      padding: 0; }
+      .sidebar__list li a {
+        color: #253238; }
+        .sidebar__list li a:hover {
+          color: #2FB2CA; }
+      .sidebar__list li:last-child {
+        margin-bottom: 0; }
+    .sidebar__list-wrapper {
+      border: 1px solid #E8E8E8;
+      border-radius: 4px;
+      padding: 30px;
+      margin-bottom: 20px; }
+
+.min-w-100 {
+  min-width: 100%; }
+
+.page-content__helpInformation .sidebar-right .usps {
+  display: none !important; }
+
+@media screen and (max-width: 580px) {
   .input-radio__wrapper {
     margin-top: 15px; }
     .input-radio__wrapper-3 .input-radio {
-      width: calc(100%/2 - 10px); } }
+      width: calc(100%/2 - 10px); }
+
+  .content-list__item > * {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; } }

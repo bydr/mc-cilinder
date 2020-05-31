@@ -1,4 +1,4 @@
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 580px) {
   .input-radio {
     &__wrapper {
       margin-top: 15px;
@@ -8,4 +8,13 @@
     }
     }
   }
+
+  .content-list {
+    &__item {
+      > * {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+
 }
