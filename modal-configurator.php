@@ -70,7 +70,9 @@ global $template_dir;
                         </div>
                     </div>
                 </div>
-                <div id="menu1" class="container tab-pane fade"><br>
+                <div id="menu1" class="container tab-pane fade">
+                    <br>
+                    <br>
                     <div class="tab-pane__body">
                         <div class="row">
                             <div class="col-12 col-md-8">

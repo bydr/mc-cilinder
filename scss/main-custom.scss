@@ -211,6 +211,8 @@
   &.table-rowed {
     border-spacing: 0 10px;
     border-collapse: separate;
+    margin-top: 0;
+
     .table {
 
       &-thead {
@@ -218,6 +220,8 @@
           border: none;
         }
         .table-cell {
+          padding-top: 0;
+
           &:first-child {
             border: none;
           }
