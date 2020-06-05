@@ -56,6 +56,7 @@ function add_scripts_method()
     //p_enqueue_script('star-rating-theme-js', $template_dir . '/libs/bootstrap-star-rating/themes/krajee-fas/theme.js', array(), '1', true);
     /*Главный скрипт*/
     wp_enqueue_script('main-js', $template_dir . '/js/app.js', array(), wp_get_theme()->get( 'Version' ), true);
+    wp_enqueue_script('custom-js', $template_dir . '/js/custom.js', array(), wp_get_theme()->get( 'Version' ), true);
 
 
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

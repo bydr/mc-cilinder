@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 
+<?php
+global $template_dir;
+echo file_get_contents($template_dir.'/modal-configurator.php');
+?>
+
     <div class="container-fluid main-header">
         <div class="container">
             <div class="row">
@@ -44,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 step-wrapper">
-                    <div class="step active">
+                    <div class="step active modal-configurator__btn-show">
                         <div class="green-square">1</div>
                         <h3>Hoeveel cilinders heeft u nodig?</h3>
                     </div>
@@ -1039,6 +1044,5 @@
 
         </div>
     </div>
-
 
 <?php get_footer(); ?>

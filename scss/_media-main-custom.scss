@@ -1,3 +1,11 @@
+@media screen and (max-width: 768px) {
+  .dr-modal {
+    &-content {
+      padding: 30px 20px;
+    }
+  }
+}
+
 @media screen and (max-width: 580px) {
   .input-radio {
     &__wrapper {
@@ -17,4 +25,15 @@
     }
   }
 
+  .dr-tabs-wrapper .nav-tabs {
+    flex-direction: column;
+    > * {
+      width: 100%;
+    }
+  }
+
+  .more-info-btn {
+    margin-left: 0;
+    justify-content: center;
+  }
 }
